@@ -35,6 +35,7 @@ Field	Value
 3. Authentication	Key-based
 4. Credential name / key:	Authorization
 5. Credential value / secret	Bearer : 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
+
 Click Connect / Add.
 
 Foundry saves the token as an encrypted project connection. It never appears in the instructions, the YAML or the chat.
