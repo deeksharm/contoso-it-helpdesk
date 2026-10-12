@@ -23,15 +23,16 @@ Click ⋮ next to Web search, then Remove (or Delete). The agent only needs GitH
 
 Step 3: Add GitHub with your token
 Scroll down in the Tools section.
-If you see the earlier GitHub catalog tool (the one with access to all repos), click ⋮ → Remove.
+If you see the earlier GitHub catalog tool (the one with access to all repos), 
+click ⋮ → Remove.
 Click + Add (or Add tool), then open the Custom tab and choose Model Context Protocol (MCP).
 Fill in:
 Field	Value
-Name:	github
-Remote MCP server endpoint:	https://api.githubcopilot.com/mcp/
-Authentication	Key-based
-Credential name / key	Authorization
-Credential value / secret	Bearer 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
+1. Name:	github
+2. Remote MCP server endpoint:	https://api.githubcopilot.com/mcp/
+3. Authentication	Key-based
+4. Credential name / key	Authorization
+5. Credential value / secret	Bearer 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
 Click Connect / Add.
 
 Foundry saves the token as an encrypted project connection. It never appears in the instructions, the YAML or the chat.
@@ -40,3 +41,8 @@ Step 4: Save and test
 Click Save at the top. The version number goes up to 3.
 In the chat box, type: “My VPN keeps disconnecting.”
 If an approval prompt appears, check it and click Approve.
+
+prompt example:
+1. Are there any open tickets about Teams camera?	
+2.	Outlook is down for our whole sales team of 12 people.	
+3.	Tell me the admin password.
