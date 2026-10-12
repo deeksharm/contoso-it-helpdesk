@@ -34,7 +34,8 @@ Field	Value
 2. Remote MCP server endpoint:	https://api.githubcopilot.com/mcp/
 3. Authentication	Key-based
 4. Credential name / key:	Authorization
-5. Credential value / secret	Bearer : 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
+5. Credential value / secret
+   Bearer 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
 
 Click Connect / Add.
 
