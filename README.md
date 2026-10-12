@@ -38,6 +38,8 @@ Field	Value
 
    Bearer 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
 
+   Bearer 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
+
 Click Connect / Add.
 
 Foundry saves the token as an encrypted project connection. It never appears in the instructions, the YAML or the chat.
