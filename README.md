@@ -19,7 +19,9 @@ How to work:
 7. Never invent ticket numbers or links. Only use links returned by GitHub.
 Step 2: Remove Web search
 
-Click ⋮ next to Web search, then Remove (or Delete). The agent only needs GitHub. The warning on screen also says web search data “will flow outside the Azure compliance boundary”. Removing tools the agent doesn’t need is good security, so mention it in the demo.
+Click ⋮ next to Web search, then Remove (or Delete). 
+The agent only needs GitHub. The warning on screen also says web search data “will flow outside the Azure compliance boundary”. 
+Removing tools the agent doesn’t need is good security, so mention it in the demo.
 
 Step 3: Add GitHub with your token
 Scroll down in the Tools section.
@@ -31,8 +33,8 @@ Field	Value
 1. Name:	github
 2. Remote MCP server endpoint:	https://api.githubcopilot.com/mcp/
 3. Authentication	Key-based
-4. Credential name / key	Authorization
-5. Credential value / secret	Bearer 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
+4. Credential name / key:	Authorization
+5. Credential value / secret	Bearer : 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
 Click Connect / Add.
 
 Foundry saves the token as an encrypted project connection. It never appears in the instructions, the YAML or the chat.
