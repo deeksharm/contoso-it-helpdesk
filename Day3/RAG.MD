@@ -2,24 +2,24 @@
 # RAG Agent on Azure AI Foundry
 Before you start
 
-A storage account (aimldataset) and an Azure AI Search service in the same subscription.
-An embedding model deployed in Foundry, for example text-embedding-3-small (Models → Deploy). The import wizard needs it.
-Part 1: Upload the files to storage
-Azure portal → Storage accounts → aimldataset.
-Data storage → Containers → + Container.
-Name: helpdesk-kb (lowercase, no spaces)
-Access level: Private
-Click Create.
-Open helpdesk-kb → Upload, select all your .txt files, then Upload.
+-A storage account (aimldataset) and an Azure AI Search service in the same subscription.
+-An embedding model deployed in Foundry, for example text-embedding-3-small (Models → Deploy). The import wizard needs it.
+#Part 1: Upload the files to storage
+-Azure portal → Storage accounts → aimldataset.
+-Data storage → Containers → + Container.
+-Name: helpdesk-kb (lowercase, no spaces)
+-Access level: Private
+-Click Create.
+-Open helpdesk-kb → Upload, select all your .txt files, then Upload.
 
-✅ Check: all the files are listed in the container.
+#✅ Check: all the files are listed in the container.
 
-Part 2: Import the data into Azure AI Search
-Azure portal → your Azure AI Search service → Overview → Import data (or Import data (new)).
-Data source: choose Azure Data Lake Storage Gen2.
-This only works if the storage account has hierarchical namespace enabled. If aimldataset isn’t listed or shows an error, go back and choose Azure Blob Storage; the rest of the steps are the same.
-Scenario: choose RAG.
-Section 1: Connect to your data
+#Part 2: Import the data into Azure AI Search
+-Azure portal → your Azure AI Search service → Overview → Import data (or Import data (new)).
+-Data source: choose Azure Data Lake Storage Gen2.
+-This only works if the storage account has hierarchical namespace enabled. If aimldataset isn’t listed or shows an error, go back and choose Azure Blob Storage; the rest of the steps are the same.
+-Scenario: choose RAG.
+#Section 1: Connect to your data
 Field	Value
 Subscription	Your subscription
 Storage account	aimldataset
