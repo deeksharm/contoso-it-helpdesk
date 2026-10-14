@@ -86,7 +86,7 @@ Edit `.env` and fill in your real values:
 AZURE_OPENAI_ENDPOINT=https://<your-resource-name>.openai.azure.com/
 AZURE_OPENAI_API_KEY=<your-api-key>
 AZURE_OPENAI_API_VERSION=2024-10-21
-AZURE_OPENAI_DEPLOYMENT_NAME=<your-deployment-name>
+AZURE_OPENAI_DEPLOYMENT=<your-deployment-name>
 AZURE_SEARCH_ENDPOINT=https://<resource>.search.windows.net
 AZURE_SEARCH_KEY=<your-api-key>
 AZURE_SEARCH_INDEX=<your-index>
