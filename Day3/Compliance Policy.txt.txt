@@ -1,0 +1,5 @@
+Compliance Policy
+
+KYC verification is mandatory for all customers.
+AML checks must be completed before account activation.
+Customer identity documents must be securely stored.
